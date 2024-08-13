@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    line-height: 150%;
+    
+}
+
+body{
+    background-color: #F3F5FC; 
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.logo-header{
+    padding: 2% 0% 0% 2%;
+    
+}
+
+.sessao{
+    display: flex;
+    flex-direction: column;   
+    
+}
+
+.area__texto{
+    padding:10% 20%;
+    border: none;
+    width: 25rem;
+    height: 25rem;
+    outline: none;
+    font-size: 1.5rem;
+    background-color: transparent;
+    color: #0A3871;
+    font-weight: 300;
+    text-transform: lowercase;
+}
+
+::placeholder{
+    color:  #0A3871;
+    font-weight: 300;
+    
+}
+
+.aviso__botoes{
+    padding:0 20% 1%;
+    width: 300px;
+    color: #495057;
+    font-weight: 400;
+}
+
+.botoes{
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;   
+    width: 480px; 
+    padding:0 20% 1%;
+    font-size: 16px;
+}
+
+.botoes__criptografar{
+    background-color: #0A3871;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    text-align: center; 
+    width: 50%;
+    border:2px solid #0A3871;
+    border-radius: 20px;
+    font-size:1rem;
+    padding: 3% 0;
+    text-decoration:none;
+    color: white;
+}
+.botoes__descriptografar{
+    background:transparent;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    text-align: center; 
+    width: 50%;
+    border:2px solid #0A3871;
+    border-radius: 20px;
+    font-size:1rem;
+    padding: 3% 0;
+    text-decoration:none;
+    color: #0A3871;
+}
+
+.sessao__mensagem{
+    padding: 0% 7% 0% 0%;
+   
+}
+
+.area__mensagem {
+    display: flex;
+    flex-direction: column;
+    padding: 10%;
+    width: 20rem;
+    height: 33rem;
+    border: 2px solid #0A3871;
+    border-radius: 9%;
+    outline: none;
+    background-color: white;
+    color: #0A3871;
+    font-weight: 300;
+    text-transform: lowercase;
+    align-items: center;
+    font-size: 1.5rem;
+    word-wrap: break-word;
+}
+.aviso__mensagem__principal{
+    text-align: center;
+    padding: 5% 0% 1%;
+    font-weight: 700;
+    color: #343A40;
+    font-size: 1.4rem;
+    
+}
+
+.aviso__mensagem{
+    font-size: 1.3rem;
+    text-align: center;
+    color: #495057;
+}
+
+
+.botao__copiar{
+    background:transparent;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    text-align: center; 
+    width: 50%;
+    border:2px solid #0A3871;
+    border-radius: 20px;
+    font-size:1rem;
+    margin: 15px;
+    padding: 3% 0;
+    text-decoration:none;
+    color: #0A3871; 
+}
+
+/* 
+.botao__copiar{
+    background:transparent;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    text-align: center; 
+    width: 50%;
+    border:2px solid #0A3871;
+    border-radius: 20px;
+    font-size:1rem;
+    margin: 15px;
+
+    text-decoration:none;
+    color: #0A3871; 
+} */
+/* .mensagem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    width: 25rem;
+    height: 35rem;
+    background-image: url(/assets/fundo-mensagem.png);
+    background-repeat: no-repeat;
+    background-position: center; Centraliza a imagem na área
+    background-size: 75%;
+    border:2px solid;
+    border-radius: 9%;
+    text-align: center;
+    
+} */
+
+/* 
+.area__mensagem{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    width: 25rem;
+    height: 38rem;
+    border:2px solid;
+    border-radius: 9%;
+    
+}
+.mensagem__foto{
+    width: 80%;
+}
+/* 
+.aviso__mensagem__principal{
+    text-align: center;
+    padding: 0% 10%;
+    font-weight: 700;
+    color: #343A40;
+} */
+/* .aviso__mensagem{
+    text-align: center;
+    color: #495057;
+} 
+ */
