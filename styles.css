@@ -79,6 +79,12 @@ main{
     padding: 3% 0;
     text-decoration:none;
     color: white;
+    cursor: pointer;
+}
+
+.botoes__criptografar:hover{
+    background-color: blue;
+    border:2px solid black;
 }
 .botoes__descriptografar{
     background:transparent;
@@ -93,6 +99,11 @@ main{
     padding: 3% 0;
     text-decoration:none;
     color: #0A3871;
+    cursor: pointer;
+}
+.botoes__descriptografar:hover{
+    background-color: white;
+    border:2px solid black;
 }
 
 .sessao__mensagem{
